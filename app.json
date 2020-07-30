@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tab/main/main",
+    "pages/tab/ask/ask",
+    "pages/tab/mine/mine",
+    "pages/tab/specialist/specialist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTitleText": "标题栏",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+
+
+      "tabBar": {  
+      "color": "#a9b7b7",  
+      "selectedColor": "#11cd6e",  
+     "borderStyle": "black" ,
+      "list": [{  
+        "selectedIconPath": "pages/images/shouyetianchong.png",
+      "iconPath": "pages/images/shouye.png",
+     "pagePath": "pages/tab/main/main",  
+      "text": "首页"  
+    }, 
+    {   
+      "selectedIconPath": "pages/images/qunzutianchong.png",
+      "iconPath": "pages/images/qunzu.png",
+       "pagePath": "pages/tab/specialist/specialist",  
+       "text": "专家"  
+      },
+      {  
+      "selectedIconPath": "pages/images/sousuotianchong.png",
+      "iconPath": "pages/images/sousuo .png",
+       "pagePath": "pages/tab/ask/ask",  
+        "text": "问答"  
+      },
+      {
+        "selectedIconPath": "pages/images/shezhitianchong.png",
+      "iconPath": "pages/images/shezhi.png",
+        "pagePath":"pages/tab/mine/mine",
+        "text":"我的"
+      }
+      ]  
+    } 
+   }
